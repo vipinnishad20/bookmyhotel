@@ -149,7 +149,7 @@ const HSearchRes = ({
                             </div>
                             <div className='col-md-2'>
                               <h2 className='pt-2 text-center'>
-                                <strong style={{ color: "green" }}>
+                                <strong style={{ color: "#0D6EFD" }}>
                                   {" "}
                                   &#8377; {data.price_per_night}
                                 </strong>

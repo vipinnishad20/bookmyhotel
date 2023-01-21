@@ -143,7 +143,7 @@ const SearchResult = ({
                             </div>
                             <div className='col-md-2'>
                               <h2 className='pt-2 text-center'>
-                                <strong style={{ color: "green" }}>
+                                <strong style={{ color: "#0D6EFD" }}>
                                   {" "}
                                   &#8377; {data.price}
                                 </strong>
@@ -152,7 +152,7 @@ const SearchResult = ({
 
                             <div className='col-md-4 text-center pt-3'>
                               <button
-                                className='btn btn-success  book-now'
+                                className='btn btn-primary  book-now'
                                 onClick={() => handleBookNow(data.price)}
                               >
                                 BOOK NOW

@@ -112,11 +112,14 @@ const HotelSearch = ({
                     <option value='' disabled>
                       Select class
                     </option>
-                    <option value=''>A</option>
-                    <option value=''>B</option>
-                    <option value=''>C</option>
+                    <option value=''>1</option>
+                    <option value=''>2</option>
+                    <option value=''>3</option>
+                    <option value=''>4</option>
+                    <option value=''>5</option>
+                    <option value=''>6</option>
                   </select>
-                  <label htmlFor='floatingSelectGrid'>CLASS</label>
+                  <label htmlFor='floatingSelectGrid'>GUESTS</label>
                 </div>
               </div>
             </div>
