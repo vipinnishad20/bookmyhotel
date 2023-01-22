@@ -110,7 +110,7 @@ const HotelSearch = ({
                     onChange={handleToChange}
                   >
                     <option value='' disabled>
-                      Select class
+                      Select Guests
                     </option>
                     <option value=''>1</option>
                     <option value=''>2</option>

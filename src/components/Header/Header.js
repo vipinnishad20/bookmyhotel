@@ -41,7 +41,7 @@ const Header = () => {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  Login/SignUp
+                  Login
                 </button>
                 <ul
                   className='dropdown-menu'
@@ -57,7 +57,7 @@ const Header = () => {
                       <a
                         className='dropdown-item'
                         href='.'
-                        onClick={() => setMailId("hello user")}
+                        onClick={() => setMailId("User")}
                       >
                         Logout
                       </a>

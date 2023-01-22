@@ -17,6 +17,7 @@
     "firebase-login": "^1.0.0",
     "firebase-tools": "^11.21.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.7.0"
   },

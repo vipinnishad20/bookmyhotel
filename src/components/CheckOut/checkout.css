@@ -11,12 +11,27 @@ body {
   font-family: "Roboto", sans-serif;
   color: #333333;
 }
+.container{
+  display: flex;
+}
+.fareSection{
+  margin: 20px;
+  padding: 30px;
+}
+.fareSection h6{
+  font-weight: bold;
+}
+.fareSec{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
 
+}
 .payment-container {
   margin: auto;
   padding: 25px;
   height: 400px;
-  width: 700px;
+  width: 400px;
   background: #f7f7f7;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -177,7 +192,7 @@ input:focus {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.05em;
   color: #f7f7f7;
-  background-color: #4f7cac;
+  background-color: #003580;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -186,4 +201,9 @@ input:focus {
 
 button:hover {
   background-color: #2a94f4;
+}
+
+.expire-date{
+  display: flex;
+ 
 }
