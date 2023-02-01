@@ -5,8 +5,6 @@
 .head-info-box {
   background-color: rgba(77, 171, 253, 0.1);
   color: white;
-  /* margin-left: 1rem; */
-  /* margin-top: 1rem; */
 }
 
 .search-body {
@@ -21,6 +19,7 @@
 p {
   margin: 0;
 }
+
 h1,
 h2,
 h6,
@@ -41,6 +40,7 @@ hr {
 .book-now {
   height: 40px;
 }
+
 #forms {
   display: flex;
   flex-direction: column;

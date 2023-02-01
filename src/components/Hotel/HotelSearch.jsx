@@ -1,26 +1,20 @@
 import React, { useState, useEffect } from "react";
 import "./hotel.css";
 
-const HotelSearch = ({
-  from,
-  setfrom,
+const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
 
-  HotelsProps,
-  setFilteredHotels,
-}) => {
   const [hotels, setHotels] = useState([]);
-
   const [hotelOption, setHotelOption] = useState([]);
 
   const fetchData = async () => {
     try {
-      const response = await fetch(
-        `https://content.newtonschool.co/v1/pr/63b85bcf735f93791e09caf4/hotels`
-      );
+      const response = await fetch(`https://content.newtonschool.co/v1/pr/63b85bcf735f93791e09caf4/hotels`);
       const data = await response.json();
+
       setHotelOption(data);
+      
       setHotels(data);
-      console.log(data);
+      // console.log(data);
     } catch (error) {
       console.log(error);
     }
@@ -55,8 +49,7 @@ const HotelSearch = ({
           <form
             onSubmit={handleSubmit}
             className='pb-5 pt-3'
-            style={{ width: "100%", marginLeft: "100px" }}
-          >
+            style={{ width: "100%", marginLeft: "100px" }}>
             <div className='row g-2'>
               <div className='col-md'>
                 <div className='form-floating'>
@@ -125,7 +118,7 @@ const HotelSearch = ({
             </div>
             <div className='container d-flex justify-content-center position-relative search-btn'>
               <button type='submit' className='btn btn-primary px-5'>
-                SEARCH
+                Search
               </button>
             </div>
           </form>

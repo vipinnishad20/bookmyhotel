@@ -6,6 +6,7 @@ import Master from "./Flight/Master";
 import MasterHotel from "./Hotel/MasterHotel";
 import Header from "./Header/Header";
 import Checkout from "./CheckOut/Checkout";
+import FooterBlue from "./Footer/FooterBlue";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path='/login' element={<Login />} />
         <Route exact path='/checkout' element={<Checkout />} />
       </Routes>
+      <FooterBlue />
     </Router>
   );
 };
