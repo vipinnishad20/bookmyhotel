@@ -44,15 +44,8 @@ hr {
 #forms {
   display: flex;
   flex-direction: column;
-  /* margin: 40px; */
+  
   padding: 20px;
   width: 100%;
   width: 300%;
 }
-
-/* @media (max-width: 768px) {
-  .accordion-item {
-    width: 90%;
-    margin: auto;
-  }
-} */
