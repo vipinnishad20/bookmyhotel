@@ -20,7 +20,7 @@
 }
 .btn1{
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgb(231, 231, 17);
 }
 .btn2{
   color: #003580;
@@ -32,4 +32,23 @@
 .navLinks li {
   display: inline-block;
   margin-right: 30px;
+}
+.Navbar_svgIcons__2vY6H {
+  color: #fff;
+  fill: #fff;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+img.flagNav{
+  border-radius: 15px;
+}
+.inrNav{
+  color: #fff;
+  margin-top: 0px;
+  margin-right: 3px;
+  font-size: 20px;
+}
+.inrFlag{
+  display: flex;
+  margin-top: 20px;
 }

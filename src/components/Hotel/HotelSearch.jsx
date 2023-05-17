@@ -14,7 +14,7 @@ const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
       setHotelOption(data);
       
       setHotels(data);
-      // console.log(data);
+       console.log(data);
     } catch (error) {
       console.log(error);
     }
@@ -54,7 +54,7 @@ const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
               <div className='col-md'>
                 <div className='form-floating'>
                   <select
-                    className='form-select'
+                    className='form-select border border-warning '
                     id='floatingSelectGrid'
                     aria-label='Floating label select example'
                     defaultValue='1'
@@ -77,7 +77,7 @@ const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
                 <div className='form-floating'>
                   <input
                     type='date'
-                    className='form-control'
+                    className='form-control border border-warning'
                     onChange={handleDepartureChange}
                   />
                   <label htmlFor='floatingSelectGrid'>CHECK-IN</label>
@@ -87,7 +87,7 @@ const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
                 <div className='form-floating'>
                   <input
                     type='date'
-                    className='form-control'
+                    className='form-control border border-warning'
                     onChange={handleDepartureChange}
                   />
                   <label htmlFor='floatingSelectGrid'>CHECK-OUT</label>
@@ -96,7 +96,7 @@ const HotelSearch = ({ from, setfrom, HotelsProps, setFilteredHotels, }) => {
               <div className='col-md'>
                 <div className='form-floating'>
                   <select
-                    className='form-select'
+                    className='form-select border border-warning'
                     id='floatingSelectGrid'
                     aria-label='Floating label select example'
                     defaultValue='2'
